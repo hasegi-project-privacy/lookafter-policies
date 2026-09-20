@@ -1,0 +1,613 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="robots" content="index, follow" />
+  <title>개인정보 처리방침 - 지켜봐줄게</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;500;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #f7f1e6;
+      --surface: #fcf8ef;
+      --ink: #1b130a;
+      --sub: #6b5d47;
+      --muted: #8e8265;
+      --rule: #d9cdb1;
+      --gold: #b8893d;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #12100b;
+        --surface: #1a1812;
+        --ink: #f1e9d6;
+        --sub: #b7ab91;
+        --muted: #7e7359;
+        --rule: #3a3327;
+        --gold: #d4a45d;
+      }
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: 'Noto Serif KR', 'RIDIBatang', serif;
+      font-weight: 400;
+      line-height: 1.85;
+      -webkit-font-smoothing: antialiased;
+    }
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 56px 24px 80px;
+    }
+    .eyebrow {
+      font-size: 11px;
+      letter-spacing: 3px;
+      color: var(--gold);
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+    h1 {
+      font-size: 32px;
+      letter-spacing: -0.6px;
+      margin: 0 0 6px;
+      font-weight: 400;
+    }
+    .meta {
+      font-size: 12px;
+      color: var(--muted);
+      letter-spacing: 1px;
+      margin-bottom: 32px;
+    }
+    .rule {
+      height: 0.6px;
+      background: var(--rule);
+      margin: 24px 0;
+    }
+    .rule.section {
+      margin: 72px 0 56px;
+    }
+    h2 {
+      font-size: 18px;
+      letter-spacing: -0.2px;
+      margin: 32px 0 8px;
+      font-weight: 700;
+    }
+    h2 .num {
+      color: var(--gold);
+      font-weight: 400;
+      margin-right: 8px;
+    }
+    p, li {
+      font-size: 15.5px;
+      color: var(--ink);
+      margin: 0 0 12px;
+    }
+    ul { padding-left: 20px; }
+    li { margin-bottom: 6px; }
+    .callout {
+      background: var(--surface);
+      border-left: 2px solid var(--gold);
+      padding: 14px 18px;
+      margin: 0 0 8px;
+    }
+    .callout p { margin: 0 0 6px; }
+    .callout p:last-child { margin: 0; }
+    .table-wrap {
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      margin: 12px 0 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+      table-layout: fixed;
+    }
+    td a { word-break: break-all; }
+    th, td {
+      border-bottom: 0.6px solid var(--rule);
+      padding: 10px 8px;
+      text-align: left;
+      vertical-align: top;
+      word-break: keep-all;
+      overflow-wrap: break-word;
+      line-height: 1.5;
+    }
+    th {
+      color: var(--muted);
+      font-weight: 400;
+      letter-spacing: 1px;
+      font-size: 11px;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+    @media (max-width: 480px) {
+      table { font-size: 13px; }
+      th, td { padding: 8px 6px; }
+    }
+    a {
+      color: var(--gold);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+    .footer {
+      margin-top: 56px;
+      padding-top: 24px;
+      border-top: 0.6px solid var(--rule);
+      font-size: 12px;
+      color: var(--muted);
+      text-align: center;
+      letter-spacing: 1px;
+      line-height: 1.6;
+    }
+    .footer .dot { display: inline; }
+    .footer .mobile-br { display: none; }
+    @media (max-width: 480px) {
+      .footer .dot { display: none; }
+      .footer .mobile-br { display: inline; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="eyebrow">Privacy Policy</div>
+    <h1>개인정보 처리방침</h1>
+    <div class="meta">지켜봐줄게 (Lookafter) · com.hasegi.lookafter<br />최종 개정 2026-09-20 / 시행 2026-09-20 · v1.0<br /><a href="#en">English version below</a></div>
+
+    <p>
+      Hasegi Inc.(이하 "운영자")는 모바일 애플리케이션 <strong>지켜봐줄게</strong>(이하 "서비스")를 운영하며,
+      이용자의 개인정보를 소중히 여기고 「개인정보 보호법」을 비롯한 관련 법령을 준수합니다.
+      본 처리방침은 서비스가 어떤 정보를 어디에서 처리하고 어떻게 보호하는지 설명합니다.
+    </p>
+
+    <div class="callout">
+      <p><strong>핵심 요약</strong></p>
+      <p>서비스는 회원가입·로그인이 없습니다. 카메라 영상과 마이크 음성은 <strong>이용자의 기기 안에서만</strong> 실시간으로 분석되며, 영상·사진·녹음은 <strong>저장되지도, 어디로도 전송되지도 않습니다.</strong> 공부 기록·카드·통계는 기기에만 저장됩니다. 이용자가 직접 참여를 선택한 "주간 리그·크루"에 한해 익명 ID와 일별 집중 시간 같은 최소한의 정보만 서버에 저장됩니다.</p>
+    </div>
+
+    <div class="rule"></div>
+
+    <h2><span class="num">01</span>수집하는 정보 항목</h2>
+    <p>서비스는 이름·이메일·전화번호·주소·위치·연락처·사진 등 개인을 식별할 수 있는 정보를 수집하지 않습니다. 다음의 제한된 정보만 처리됩니다.</p>
+    <div class="table-wrap"><table>
+      <colgroup>
+        <col style="width:28%" />
+        <col style="width:42%" />
+        <col style="width:30%" />
+      </colgroup>
+      <thead>
+        <tr><th>항목</th><th>내용</th><th>저장 위치</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>전면 카메라 영상 (선택)</td>
+          <td>공부 세션 중 얼굴 방향, 눈 뜸 정도, 자리 비움 여부를 기기 안에서 수치로만 변환해 집중 상태를 판정</td>
+          <td>기기 내 실시간 처리 - 프레임·사진·영상 저장 없음, 전송 없음</td>
+        </tr>
+        <tr>
+          <td>마이크 음성 (선택)</td>
+          <td>회고나 답을 말로 입력할 때 기기의 음성 인식으로 글자로 변환</td>
+          <td>기기 내 실시간 처리 - 녹음 저장 없음, 전송 없음</td>
+        </tr>
+        <tr>
+          <td>공부 세션 기록</td>
+          <td>계획 문장, 시작·종료 시각, 순집중·총경과 시간, 이탈 횟수, 집중 점수, 완주 여부</td>
+          <td>기기 내부 저장소 (SQLite) - 외부 전송 없음</td>
+        </tr>
+        <tr>
+          <td>회고·인출 카드</td>
+          <td>회고 문장, 카드의 질문과 답, 복습 일정, 시험일(입력 시)</td>
+          <td>기기 내부 저장소 - 외부 전송 없음</td>
+        </tr>
+        <tr>
+          <td>통계·보상</td>
+          <td>일별 집중 시간, 스트릭, 경험치(XP)·레벨</td>
+          <td>기기 내부 저장소 - 외부 전송 없음</td>
+        </tr>
+        <tr>
+          <td>설정</td>
+          <td>언어, 화면 모드, 코치 음성, 감지 옵션, 알림 시각, 연령 확인 결과(만 13세 이상·만 14세 이상·만 18세 미만 여부만 저장하며 생년 자체는 저장하지 않음), Plus 구매 상태</td>
+          <td>기기 내부 저장소 - 외부 전송 없음</td>
+        </tr>
+        <tr>
+          <td>Android 집중 잠금 기록 (선택)</td>
+          <td>세션 중 열었던 다른 앱의 이름과 사용 시간(초)</td>
+          <td>기기 내부 저장소 - 외부 전송 없음</td>
+        </tr>
+        <tr>
+          <td>온디바이스 AI 모델 파일</td>
+          <td>Hugging Face에서 내려받는 Qwen3 모델 파일(약 586 MB). 개인정보가 아닌 프로그램 파일</td>
+          <td>기기 내부 저장소</td>
+        </tr>
+        <tr>
+          <td>주간 리그·크루 정보 (참여 선택 시)</td>
+          <td>익명 이용자 ID(무작위 생성), 닉네임, 언어, 레벨, 일별 검증·수동 집중 시간(분), 세션 수, 국가(선택)</td>
+          <td>Supabase 서버 (외부)</td>
+        </tr>
+        <tr>
+          <td>광고 식별자 (IDFA / AAID)</td>
+          <td>광고 노출, 빈도 제한 및 부정 클릭 방지</td>
+          <td>Google AdMob (외부)</td>
+        </tr>
+        <tr>
+          <td>구매 정보</td>
+          <td>Plus 구매 여부(스토어 영수증 확인 결과)</td>
+          <td>기기 내부 저장소 / Apple · Google 스토어</td>
+        </tr>
+        <tr>
+          <td>앱 사용 진단 정보</td>
+          <td>비정상 종료 기록, 기기 모델명, OS 버전</td>
+          <td>Apple / Google 플랫폼 (옵트인 시)</td>
+        </tr>
+      </tbody>
+    </table></div>
+
+    <p><strong>카메라.</strong> 집중 상태를 측정하기 위해 공부 세션 중 전면 카메라를 사용할 수 있습니다. 카메라는 선택 기능입니다. 첫 세션은 카메라 없이 진행되며, 이후 안내 화면에서 이용자가 직접 켜기를 선택했을 때만 운영체제 권한을 요청합니다. 영상은 기기 안에서 얼굴 방향·눈 뜸·자리 비움 여부라는 수치로만 변환되고, 프레임·사진·영상은 파일로 저장하거나 어떤 서버로도 전송하지 않습니다. 미리보기 화면도 표시하지 않습니다. 서비스는 사람을 알아보는 얼굴 인식이나 생체정보 추출을 하지 않습니다.</p>
+    <p><strong>마이크.</strong> 회고나 카드의 답을 말로 입력할 때에만 마이크를 사용합니다. 음성은 기기의 음성 인식 기능으로 기기 안에서 글자로 변환되며, 원음이나 녹음은 저장하거나 업로드하지 않습니다. 운영체제나 기기 제조사의 음성 인식 정책이 별도로 적용될 수 있습니다.</p>
+    <p><strong>온디바이스 AI.</strong> 인출 카드와 요약은 기기 안에서 실행되는 언어 모델(Qwen3)이 만듭니다. 이용자가 남긴 문장과 모델에 보내는 요청(프롬프트)은 어떤 서버로도 전송되지 않습니다. 모델 파일은 이용자의 통신망으로 Hugging Face에서 한 번 내려받으며, 이 다운로드 요청에는 IP 주소 같은 통상적인 접속 정보만 포함되고 이용자 데이터는 포함되지 않습니다.</p>
+    <p><strong>Android 집중 잠금 (선택).</strong> Android에서 이용자가 직접 켠 경우에 한해, 공부 세션 중 다른 앱으로 이동했는지를 "사용 정보 접근" 권한으로 확인하고, "다른 앱 위에 표시" 권한으로 작은 돌아오기 카드를 띄울 수 있습니다. 이를 위한 포그라운드 서비스는 세션 중에만 실행됩니다. 열었던 앱의 이름과 사용 시간(초)은 세션 요약을 위해 기기 안에만 기록되며 전송되지 않습니다.</p>
+    <p><strong>주간 리그·크루 (선택).</strong> 리그 탭에서 참여를 선택한 경우에만 익명 로그인(무작위 이용자 ID)으로 서버에 프로필이 만들어지며, 위 표의 항목만 저장됩니다. 이메일·이름은 수집하지 않습니다. 세션 원본·회고·카드는 서버로 전송되지 않습니다. 만 14세 미만 이용자는 리그·크루에 참여할 수 없습니다.</p>
+    <p><strong>광고.</strong> 무료 이용 시 Google AdMob 광고가 표시되며, AdMob SDK가 광고 식별자를 수집해 Google과 공유합니다. iOS에서는 광고 식별자 사용 동의를 묻는 앱 추적 투명성(App Tracking Transparency) 시스템 창이 표시되며, 거부해도 일반 광고는 그대로 표시됩니다. 공부 세션 진행 중에는 광고를 표시하지 않으며, Plus를 구매하면 광고가 표시되지 않습니다.</p>
+    <p><strong>이용 연령.</strong> 서비스는 만 13세 이상을 대상으로 하며 만 13세 미만 아동을 대상으로 하지 않습니다. 첫 실행 시 출생연도로 연령을 확인하고 만 13세 미만은 이용을 차단합니다. 만 18세 미만 이용자에게는 맞춤형 광고를 요청하지 않으며 연령 제한 광고 처리를 적용합니다.</p>
+
+    <h2><span class="num">02</span>이용 목적</h2>
+    <ul>
+      <li>카메라·마이크 (기기 내 처리) - 집중 상태 감지와 코칭, 회고·답의 음성 입력</li>
+      <li>세션 기록·카드·통계·설정 - 공부 기록 보관, 인출 카드 생성과 복습 일정, 통계와 보상 표시, 다음 실행에서 같은 설정 유지</li>
+      <li>집중 잠금 기록 - 세션 요약에 "폰 사용" 내역 표시 (Android, 옵트인)</li>
+      <li>온디바이스 AI 모델 파일 - 기기 안에서 카드·요약 생성</li>
+      <li>리그·크루 정보 - 비슷한 속도의 이용자를 묶어 주간 순위와 크루 현황을 표시 (옵트인)</li>
+      <li>광고 식별자 - 모바일 광고 노출 및 빈도 제한 (Plus 구매 시 광고 미표시)</li>
+      <li>구매 정보 - Plus 혜택 제공과 구매 복원</li>
+      <li>앱 사용 진단 - 안정성 개선 및 오류 수정</li>
+    </ul>
+    <p>운영자는 위 정보를 이용자 개인을 식별하거나 프로파일링하는 목적으로 사용하지 않으며, 별도의 분석(애널리틱스) SDK를 사용하지 않습니다.</p>
+
+    <h2><span class="num">03</span>보유 및 이용 기간</h2>
+    <ul>
+      <li>기기 내부 저장 정보(세션, 카드, 회고, 통계, 설정, 집중 잠금 기록, 모델 파일)는 이용자가 앱 설정에서 삭제하거나 앱을 제거할 때까지 기기에 보관됩니다. 앱을 제거하면 기기 안의 모든 정보가 함께 삭제되며, 운영자가 보유하는 사본은 없습니다.</li>
+      <li>리그·크루 서버 정보는 이용자가 리그에서 나가면 즉시 삭제됩니다. 계정은 앱 설치와 하나로 묶여 있어, 앱을 제거하면 해당 익명 계정에 다시 접근하거나 복구할 수 없습니다. 나가지 않고 앱을 제거한 경우에도 서버에는 이용자를 식별할 정보가 없으며, 운영자는 오랫동안 갱신되지 않은 익명 프로필을 주기적으로 정리할 수 있습니다.</li>
+      <li>광고 식별자는 Google AdMob 정책에 따라 처리되며, 이용자는 OS 설정에서 언제든 재설정하거나 맞춤형 광고를 끌 수 있습니다.</li>
+      <li>구매 기록은 Apple App Store / Google Play가 각 스토어 정책에 따라 보관합니다.</li>
+      <li>비정상 종료 기록은 Apple App Store Connect / Google Play Console 정책에 따라 90일 ~ 2년간 보관됩니다.</li>
+    </ul>
+
+    <h2><span class="num">04</span>제3자 제공 및 처리 위탁</h2>
+    <p>운영자는 이용자의 개인정보를 별도 동의 없이 제3자에게 제공하지 않습니다. 다만 다음 서비스에 일부 정보 처리를 위탁합니다. 카메라 영상, 마이크 음성, 회고·카드 원문, 세션 원본은 어느 수탁자에게도 전달되지 않습니다.</p>
+    <div class="table-wrap"><table>
+      <colgroup>
+        <col style="width:30%" />
+        <col style="width:48%" />
+        <col style="width:22%" />
+      </colgroup>
+      <thead>
+        <tr><th>수탁자</th><th>위탁 내용</th><th>관련 정책</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Google LLC (AdMob)</td>
+          <td>모바일 광고 송출(배너·전면·앱 오픈·보상형·네이티브) 및 광고 식별자 처리</td>
+          <td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a></td>
+        </tr>
+        <tr>
+          <td>Supabase, Inc.</td>
+          <td>주간 리그·크루 정보 저장(참여 선택 시에만): 익명 ID, 닉네임, 언어, 레벨, 일별 집중 시간, 세션 수, 국가(선택)</td>
+          <td><a href="https://supabase.com/privacy" target="_blank" rel="noopener">supabase.com/privacy</a></td>
+        </tr>
+        <tr>
+          <td>Hugging Face, Inc.</td>
+          <td>온디바이스 AI 모델 파일 다운로드 전송(이용자 데이터·프롬프트 전송 없음)</td>
+          <td><a href="https://huggingface.co/privacy" target="_blank" rel="noopener">huggingface.co/privacy</a></td>
+        </tr>
+        <tr>
+          <td>Apple Inc. / Google LLC</td>
+          <td>앱 배포, 인앱 결제 처리(결제 수단 정보는 운영자에게 전달되지 않음), 비정상 종료 진단</td>
+          <td>각 플랫폼 정책</td>
+        </tr>
+      </tbody>
+    </table></div>
+    <p><strong>국외 이전 안내.</strong> 리그·크루 참여를 선택하면 위 표의 리그 항목이 참여 시점에 네트워크를 통해 Supabase가 운영하는 해외 서버(미국 또는 유럽연합 리전)에 저장됩니다. 보유 기간은 리그 탈퇴 시까지이며, 이전을 원하지 않으면 리그에 참여하지 않으면 됩니다. 리그를 제외한 어떤 기능도 이용자 정보를 국외로 보내지 않습니다.</p>
+
+    <h2><span class="num">05</span>이용자의 권리</h2>
+    <ul>
+      <li>카메라·마이크 권한 철회: iOS는 [설정 - 지켜봐줄게], Android는 [설정 - 앱 - 지켜봐줄게 - 권한]에서 언제든 끌 수 있습니다. 끄면 해당 기능만 비활성화되고 나머지 기능은 그대로 이용할 수 있습니다.</li>
+      <li>집중 잠금 해제(Android): 앱 설정에서 끄거나, 기기 설정에서 "사용 정보 접근"과 "다른 앱 위에 표시" 권한을 철회할 수 있습니다.</li>
+      <li>광고 식별자 재설정 또는 맞춤형 광고 거부: iOS는 [설정 - 개인정보 보호 및 보안 - 추적], Android는 [설정 - 개인 정보 보호 - 광고]에서 가능합니다.</li>
+      <li>기기 내 정보 내보내기·삭제: 앱 [설정 - 데이터]에서 내 기록을 파일로 내보내거나 모두 삭제할 수 있습니다. 앱을 제거해도 전부 삭제됩니다.</li>
+      <li>리그·크루 정보 삭제: 리그 탭에서 나가면 서버의 해당 정보가 즉시 삭제됩니다.</li>
+      <li>알림 중단: 앱 [설정 - 알림]에서 끄거나 기기 알림 설정에서 차단할 수 있습니다. 서비스의 알림은 모두 기기 안에서 예약되는 로컬 알림이며 푸시 서버가 없습니다.</li>
+      <li>열람·정정·삭제·처리정지 요구와 본 처리방침에 관한 문의는 아래 책임자 연락처로 접수할 수 있으며, 지체 없이 답변합니다.</li>
+    </ul>
+
+    <h2><span class="num">06</span>개인정보의 안전성 확보 조치</h2>
+    <ul>
+      <li>개인을 식별할 수 있는 정보를 수집하지 않는 것을 기본 원칙으로 설계했습니다.</li>
+      <li>카메라 영상과 마이크 음성은 기기 메모리 안에서만 처리되며 파일로 저장하거나 전송하지 않습니다.</li>
+      <li>AI 카드·요약 생성은 기기 안에서 이루어지며, 프롬프트를 외부 서버로 보내지 않습니다.</li>
+      <li>리그 서버는 이용자별 접근 통제(행 수준 보안)를 적용하고, 익명 ID만으로 이용자를 구분합니다.</li>
+      <li>외부 통신은 모두 HTTPS(TLS 1.2 이상)로 암호화됩니다.</li>
+      <li>위탁 수탁자(Google, Supabase 등)의 보안 표준을 준용합니다.</li>
+    </ul>
+
+    <h2><span class="num">07</span>개인정보 보호 책임자</h2>
+    <p>
+      담당자 — Hasegi Inc. · 개발팀<br />
+      이메일 — <a href="mailto:hasegi.cs@gmail.com">hasegi.cs@gmail.com</a>
+    </p>
+
+    <h2><span class="num">08</span>권익침해 구제방법</h2>
+    <p>정보주체는 개인정보 침해에 관한 피해 구제 및 상담을 다음 기관에 문의할 수 있습니다.</p>
+    <div class="table-wrap"><table>
+      <colgroup>
+        <col style="width:42%" />
+        <col style="width:30%" />
+        <col style="width:28%" />
+      </colgroup>
+      <thead>
+        <tr><th>기관</th><th>전화</th><th>홈페이지</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>개인정보 분쟁조정위원회</td>
+          <td>(국번 없이) 1833-6972</td>
+          <td><a href="https://www.kopico.go.kr" target="_blank" rel="noopener">kopico.go.kr</a></td>
+        </tr>
+        <tr>
+          <td>개인정보 침해신고센터 (KISA)</td>
+          <td>(국번 없이) 118</td>
+          <td><a href="https://privacy.kisa.or.kr" target="_blank" rel="noopener">privacy.kisa.or.kr</a></td>
+        </tr>
+        <tr>
+          <td>대검찰청 사이버범죄수사단</td>
+          <td>(국번 없이) 1301</td>
+          <td><a href="https://www.spo.go.kr" target="_blank" rel="noopener">spo.go.kr</a></td>
+        </tr>
+        <tr>
+          <td>경찰청 사이버수사국</td>
+          <td>(국번 없이) 182</td>
+          <td><a href="https://ecrm.cyber.go.kr" target="_blank" rel="noopener">ecrm.cyber.go.kr</a></td>
+        </tr>
+      </tbody>
+    </table></div>
+
+    <h2><span class="num">09</span>처리방침의 변경</h2>
+    <p>본 처리방침은 법령·정책 또는 보안 기술의 변경에 따라 개정될 수 있으며, 개정 시 앱 내 공지 또는 본 페이지 상단의 시행 일자를 통해 안내합니다. 이용자는 정기적으로 본 페이지를 확인해 주시기 바랍니다.</p>
+
+    <div class="rule section" id="en"></div>
+
+    <div class="eyebrow">Privacy Policy · English</div>
+    <h1>Privacy Policy</h1>
+    <div class="meta">Lookafter (지켜봐줄게) · com.hasegi.lookafter<br />Last updated 2026-09-20 / Effective 2026-09-20 · v1.0<br />The Korean text above governs; this English version is provided for convenience.</div>
+
+    <p>
+      Hasegi Inc. ("we" or "the operator") operates the mobile application <strong>Lookafter</strong> ("the service").
+      We respect your privacy and comply with applicable data protection laws, including the Personal Information Protection Act of Korea.
+      This policy explains what information the service processes, where, and how it is protected.
+    </p>
+
+    <div class="callout">
+      <p><strong>In short</strong></p>
+      <p>There is no sign-up or login. Camera video and microphone audio are analyzed <strong>on your device only</strong>, in real time. No frames, photos, or recordings are <strong>ever stored or transmitted anywhere.</strong> Your study records, cards, and statistics stay on your device. Only if you choose to join the optional weekly league or crew is a minimal set of data (an anonymous ID and daily focus minutes) stored on a server.</p>
+    </div>
+
+    <div class="rule"></div>
+
+    <h2><span class="num">01</span>Information We Process</h2>
+    <p>The service does not collect your name, email, phone number, address, location, contacts, or photos. Only the following limited information is processed.</p>
+    <div class="table-wrap"><table>
+      <colgroup>
+        <col style="width:28%" />
+        <col style="width:42%" />
+        <col style="width:30%" />
+      </colgroup>
+      <thead>
+        <tr><th>Item</th><th>Details</th><th>Where it lives</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Front camera video (optional)</td>
+          <td>During a study session, face direction, eye openness, and presence are converted on-device into numbers only, to measure focus</td>
+          <td>Real-time on-device processing - no frames, photos, or video stored; nothing transmitted</td>
+        </tr>
+        <tr>
+          <td>Microphone audio (optional)</td>
+          <td>When you dictate a reflection or an answer, on-device speech recognition converts it to text</td>
+          <td>Real-time on-device processing - no recording stored; nothing transmitted</td>
+        </tr>
+        <tr>
+          <td>Study sessions</td>
+          <td>Plan sentence, start/end time, net focus and elapsed time, distraction count, focus score, completion</td>
+          <td>Device storage (SQLite) - never uploaded</td>
+        </tr>
+        <tr>
+          <td>Reflections and recall cards</td>
+          <td>Reflection sentence, card question and answer, review schedule, exam date (if entered)</td>
+          <td>Device storage - never uploaded</td>
+        </tr>
+        <tr>
+          <td>Statistics and rewards</td>
+          <td>Daily focus minutes, streak, XP and level</td>
+          <td>Device storage - never uploaded</td>
+        </tr>
+        <tr>
+          <td>Settings</td>
+          <td>Language, display mode, coach voice, detection options, notification time, age-gate result (only whether you are 13+, 14+, or under 18 is stored; the birth year itself is not), Plus purchase state</td>
+          <td>Device storage - never uploaded</td>
+        </tr>
+        <tr>
+          <td>Android focus lock log (optional)</td>
+          <td>Names of other apps opened during a session and seconds spent in them</td>
+          <td>Device storage - never uploaded</td>
+        </tr>
+        <tr>
+          <td>On-device AI model file</td>
+          <td>Qwen3 model file (about 586 MB) downloaded from Hugging Face; a program file, not personal data</td>
+          <td>Device storage</td>
+        </tr>
+        <tr>
+          <td>Weekly league / crew (opt-in only)</td>
+          <td>Anonymous user ID (randomly generated), nickname, language, level, daily verified and manual focus minutes, session counts, country (optional)</td>
+          <td>Supabase server (external)</td>
+        </tr>
+        <tr>
+          <td>Advertising identifier (IDFA / AAID)</td>
+          <td>Ad delivery, frequency capping, and fraud prevention</td>
+          <td>Google AdMob (external)</td>
+        </tr>
+        <tr>
+          <td>Purchase information</td>
+          <td>Whether Plus has been purchased (store receipt verification result)</td>
+          <td>Device storage / Apple and Google stores</td>
+        </tr>
+        <tr>
+          <td>Diagnostics</td>
+          <td>Crash reports, device model, OS version</td>
+          <td>Apple / Google platforms (if you opted in)</td>
+        </tr>
+      </tbody>
+    </table></div>
+
+    <p><strong>Camera.</strong> The front camera may be used during a study session to measure focus. It is optional: your first session runs without it, and the OS permission is requested only when you later choose to turn it on from an in-app explanation screen. Video is converted on-device into numbers (face direction, eye openness, presence) only. No frames, photos, or video are saved to a file or sent to any server, and no preview is shown. The service does not perform facial recognition or extract biometric identifiers.</p>
+    <p><strong>Microphone.</strong> The microphone is used only when you dictate a reflection or a card answer. Speech is converted to text on-device by the platform's speech recognition; the audio is never stored or uploaded. Your OS or device manufacturer's speech recognition policy may also apply.</p>
+    <p><strong>On-device AI.</strong> Recall cards and summaries are generated by a language model (Qwen3) that runs on your device. Your sentences and the prompts sent to the model never leave the device. The model file is downloaded once from Hugging Face over your own connection; that download request carries only ordinary connection information such as your IP address and no user data.</p>
+    <p><strong>Android focus lock (optional).</strong> On Android, only if you turn it on, the app uses the "usage access" permission to detect whether you switched to another app during a session and the "display over other apps" permission to show a small "come back" card. A foreground service for this runs only during the session. The names of apps opened and seconds spent are recorded on-device for the session summary and are never transmitted.</p>
+    <p><strong>Weekly league and crew (optional).</strong> Only if you choose to join from the League tab, an anonymous sign-in creates a server profile with a random user ID and stores only the items in the table above. No email or name is collected. Raw sessions, reflections, and cards are never sent to the server. Users under 14 cannot join the league or a crew.</p>
+    <p><strong>Advertising.</strong> Free users see Google AdMob ads, and the AdMob SDK collects the advertising identifier and shares it with Google. On iOS, the App Tracking Transparency system prompt asks for permission to use the advertising identifier; if you decline, non-personalized ads are still shown. No ads are shown while a study session is running, and no ads are shown once Plus is purchased.</p>
+    <p><strong>Age.</strong> The service is intended for users aged 13 and older and is not directed at children under 13. On first launch, age is checked by birth year and users under 13 are blocked. Users under 18 receive non-personalized ads with age-restricted treatment.</p>
+
+    <h2><span class="num">02</span>Purposes</h2>
+    <ul>
+      <li>Camera and microphone (on-device) - focus detection and coaching; dictating reflections and answers</li>
+      <li>Sessions, cards, statistics, settings - keeping your study record, generating recall cards and review schedules, showing statistics and rewards, restoring your settings on the next launch</li>
+      <li>Focus lock log - showing "phone use" in the session summary (Android, opt-in)</li>
+      <li>On-device AI model file - generating cards and summaries locally</li>
+      <li>League and crew data - grouping users of similar pace and showing weekly standings and crew boards (opt-in)</li>
+      <li>Advertising identifier - showing mobile ads and capping frequency (no ads once Plus is purchased)</li>
+      <li>Purchase information - providing Plus benefits and restoring purchases</li>
+      <li>Diagnostics - improving stability and fixing bugs</li>
+    </ul>
+    <p>We do not use this information to identify or profile individual users, and the app contains no analytics SDK.</p>
+
+    <h2><span class="num">03</span>Retention</h2>
+    <ul>
+      <li>Data stored on your device (sessions, cards, reflections, statistics, settings, focus lock log, model file) stays there until you delete it in the app's settings or uninstall the app. Uninstalling removes everything on the device; we keep no copy.</li>
+      <li>League and crew data on the server is deleted immediately when you leave the league. The account is tied to the app installation: if you uninstall, the anonymous account cannot be accessed or recovered. If you uninstall without leaving, the server still holds nothing that identifies you, and we may periodically clean up anonymous profiles that have not been updated for a long time.</li>
+      <li>The advertising identifier is handled under Google AdMob's policy; you can reset it or opt out of personalized ads in your OS settings at any time.</li>
+      <li>Purchase records are kept by Apple App Store / Google Play under their own policies.</li>
+      <li>Crash reports are retained by Apple App Store Connect / Google Play Console for 90 days to 2 years under their policies.</li>
+    </ul>
+
+    <h2><span class="num">04</span>Third Parties and Processors</h2>
+    <p>We do not share your personal information with third parties without separate consent. We entrust limited processing to the services below. Camera video, microphone audio, the text of your reflections and cards, and raw sessions are never passed to any of them.</p>
+    <div class="table-wrap"><table>
+      <colgroup>
+        <col style="width:30%" />
+        <col style="width:48%" />
+        <col style="width:22%" />
+      </colgroup>
+      <thead>
+        <tr><th>Processor</th><th>Purpose</th><th>Policy</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Google LLC (AdMob)</td>
+          <td>Serving mobile ads (banner, interstitial, app open, rewarded, native) and processing the advertising identifier</td>
+          <td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a></td>
+        </tr>
+        <tr>
+          <td>Supabase, Inc.</td>
+          <td>Storing weekly league and crew data (opt-in only): anonymous ID, nickname, language, level, daily focus minutes, session counts, country (optional)</td>
+          <td><a href="https://supabase.com/privacy" target="_blank" rel="noopener">supabase.com/privacy</a></td>
+        </tr>
+        <tr>
+          <td>Hugging Face, Inc.</td>
+          <td>Delivering the on-device AI model file download (no user data or prompts are sent)</td>
+          <td><a href="https://huggingface.co/privacy" target="_blank" rel="noopener">huggingface.co/privacy</a></td>
+        </tr>
+        <tr>
+          <td>Apple Inc. / Google LLC</td>
+          <td>App distribution, in-app purchase processing (payment details never reach us), crash diagnostics</td>
+          <td>Each platform's policy</td>
+        </tr>
+      </tbody>
+    </table></div>
+    <p><strong>International transfer.</strong> If you join the league or a crew, the league items listed above are sent over the network at the time you join and stored on servers operated by Supabase outside Korea (United States or European Union region). They are kept until you leave the league. If you do not want this transfer, simply do not join. No other feature sends your information abroad.</p>
+
+    <h2><span class="num">05</span>Your Rights</h2>
+    <ul>
+      <li>Revoke camera or microphone permission: iOS [Settings - Lookafter], Android [Settings - Apps - Lookafter - Permissions]. Only that feature is disabled; everything else keeps working.</li>
+      <li>Turn off focus lock (Android): in the app's settings, or revoke "usage access" and "display over other apps" in device settings.</li>
+      <li>Reset the advertising identifier or opt out of personalized ads: iOS [Settings - Privacy &amp; Security - Tracking], Android [Settings - Privacy - Ads].</li>
+      <li>Export or delete on-device data: [Settings - Data] in the app lets you export your records to a file or delete them all. Uninstalling also deletes everything.</li>
+      <li>Delete league and crew data: leave the league from the League tab and the server rows are deleted immediately.</li>
+      <li>Stop notifications: turn them off in [Settings - Notifications] in the app or block them in device settings. All notifications are local, scheduled on the device; there is no push server.</li>
+      <li>Requests to access, correct, delete, or suspend processing, and any question about this policy, can be sent to the contact below and will be answered without delay.</li>
+    </ul>
+
+    <h2><span class="num">06</span>Security Measures</h2>
+    <ul>
+      <li>The service is designed around not collecting personally identifiable information in the first place.</li>
+      <li>Camera video and microphone audio are processed only in device memory and are never saved to a file or transmitted.</li>
+      <li>AI cards and summaries are generated on-device; prompts are never sent to an external server.</li>
+      <li>The league server enforces per-user access control (row-level security) and distinguishes users only by anonymous ID.</li>
+      <li>All external communication is encrypted with HTTPS (TLS 1.2 or higher).</li>
+      <li>We rely on the security standards of our processors (Google, Supabase, and others).</li>
+    </ul>
+
+    <h2><span class="num">07</span>Privacy Contact</h2>
+    <p>
+      Contact — Hasegi Inc. · Development<br />
+      Email — <a href="mailto:hasegi.cs@gmail.com">hasegi.cs@gmail.com</a>
+    </p>
+
+    <h2><span class="num">08</span>Remedies for Privacy Violations</h2>
+    <p>Data subjects in Korea may seek dispute resolution or counseling from the following agencies.</p>
+    <div class="table-wrap"><table>
+      <colgroup>
+        <col style="width:42%" />
+        <col style="width:30%" />
+        <col style="width:28%" />
+      </colgroup>
+      <thead>
+        <tr><th>Agency</th><th>Phone</th><th>Website</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Personal Information Dispute Mediation Committee</td>
+          <td>1833-6972 (no area code)</td>
+          <td><a href="https://www.kopico.go.kr" target="_blank" rel="noopener">kopico.go.kr</a></td>
+        </tr>
+        <tr>
+          <td>Privacy Infringement Report Center (KISA)</td>
+          <td>118 (no area code)</td>
+          <td><a href="https://privacy.kisa.or.kr" target="_blank" rel="noopener">privacy.kisa.or.kr</a></td>
+        </tr>
+        <tr>
+          <td>Supreme Prosecutors' Office, Cybercrime Investigation</td>
+          <td>1301 (no area code)</td>
+          <td><a href="https://www.spo.go.kr" target="_blank" rel="noopener">spo.go.kr</a></td>
+        </tr>
+        <tr>
+          <td>Korean National Police Agency, Cyber Bureau</td>
+          <td>182 (no area code)</td>
+          <td><a href="https://ecrm.cyber.go.kr" target="_blank" rel="noopener">ecrm.cyber.go.kr</a></td>
+        </tr>
+      </tbody>
+    </table></div>
+
+    <h2><span class="num">09</span>Changes to This Policy</h2>
+    <p>This policy may be revised when laws, our practices, or security technology change. Revisions are announced in the app or by updating the effective date at the top of this page. Please check this page from time to time.</p>
+
+    <div class="footer">
+      (c) 2026 Hasegi Inc.<span class="dot"> / </span><br class="mobile-br" />지켜봐줄게 (Lookafter)
+    </div>
+  </main>
+</body>
+</html>

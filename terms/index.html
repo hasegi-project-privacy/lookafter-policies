@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="robots" content="index, follow" />
+  <title>이용약관 - 지켜봐줄게</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;500;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #f7f1e6;
+      --surface: #fcf8ef;
+      --ink: #1b130a;
+      --sub: #6b5d47;
+      --muted: #8e8265;
+      --rule: #d9cdb1;
+      --gold: #b8893d;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #12100b;
+        --surface: #1a1812;
+        --ink: #f1e9d6;
+        --sub: #b7ab91;
+        --muted: #7e7359;
+        --rule: #3a3327;
+        --gold: #d4a45d;
+      }
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: 'Noto Serif KR', 'RIDIBatang', serif;
+      font-weight: 400;
+      line-height: 1.85;
+      -webkit-font-smoothing: antialiased;
+    }
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 56px 24px 80px;
+    }
+    .eyebrow {
+      font-size: 11px;
+      letter-spacing: 3px;
+      color: var(--gold);
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+    h1 {
+      font-size: 32px;
+      letter-spacing: -0.6px;
+      margin: 0 0 6px;
+      font-weight: 400;
+    }
+    .meta {
+      font-size: 12px;
+      color: var(--muted);
+      letter-spacing: 1px;
+      margin-bottom: 32px;
+    }
+    .rule {
+      height: 0.6px;
+      background: var(--rule);
+      margin: 24px 0;
+    }
+    .rule.section {
+      margin: 72px 0 56px;
+    }
+    h2 {
+      font-size: 18px;
+      letter-spacing: -0.2px;
+      margin: 32px 0 8px;
+      font-weight: 700;
+    }
+    h2 .num {
+      color: var(--gold);
+      font-weight: 400;
+      margin-right: 8px;
+    }
+    p, li {
+      font-size: 15.5px;
+      color: var(--ink);
+      margin: 0 0 12px;
+    }
+    ul, ol { padding-left: 20px; }
+    li { margin-bottom: 6px; }
+    li ul { margin-top: 6px; }
+    a {
+      color: var(--gold);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+    .footer {
+      margin-top: 56px;
+      padding-top: 24px;
+      border-top: 0.6px solid var(--rule);
+      font-size: 12px;
+      color: var(--muted);
+      text-align: center;
+      letter-spacing: 1px;
+      line-height: 1.6;
+    }
+    .footer .dot { display: inline; }
+    .footer .mobile-br { display: none; }
+    @media (max-width: 480px) {
+      .footer .dot { display: none; }
+      .footer .mobile-br { display: inline; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="eyebrow">Terms of Service</div>
+    <h1>이용약관</h1>
+    <div class="meta">지켜봐줄게 (Lookafter) · com.hasegi.lookafter<br />최종 개정 2026-09-20 / 시행 2026-09-20 · v1.0<br /><a href="#en">English version below</a></div>
+
+    <p>
+      본 약관은 Hasegi Inc.(이하 "운영자")가 제공하는 모바일 애플리케이션
+      <strong>지켜봐줄게</strong>(이하 "서비스")의 이용에 관한 운영자와 이용자 간의 권리·의무 및
+      책임 사항을 규정합니다. 서비스를 이용하는 행위는 본 약관에 동의하는 것으로 간주됩니다.
+    </p>
+
+    <div class="rule"></div>
+
+    <h2><span class="num">01</span>목적</h2>
+    <p>본 약관은 이용자가 서비스를 안전하고 합리적으로 이용할 수 있도록 필요한 사항을 정함을 목적으로 합니다.</p>
+
+    <h2><span class="num">02</span>용어의 정의</h2>
+    <ul>
+      <li><strong>서비스</strong> - 공부 세션 기록, 기기 내 집중 감지, 인출 카드와 복습, 통계, 주간 리그·크루, 코치 음성 등을 제공하는 AI 자기주도학습 코칭 애플리케이션 "지켜봐줄게".</li>
+      <li><strong>이용자</strong> - 본 약관에 따라 서비스를 설치하고 이용하는 모든 사람.</li>
+      <li><strong>세션</strong> - 이용자가 계획을 정하고 시작해 종료할 때까지의 한 번의 공부 시간.</li>
+      <li><strong>집중 감지</strong> - 이용자가 선택한 경우 세션 중 전면 카메라 영상을 기기 안에서만 분석해 얼굴 방향·눈 뜸·자리 비움 여부로 집중 상태를 추정하는 기능. 영상·사진은 저장되거나 전송되지 않습니다.</li>
+      <li><strong>인출 카드</strong> - 이용자가 남긴 회고 문장을 바탕으로 기기 안의 AI 모델이 만드는 복습용 질문·답 카드.</li>
+      <li><strong>집중 잠금</strong> - Android에서 이용자가 선택한 경우, 세션 중 다른 앱으로 이동하면 돌아오기 카드를 띄우고 사용 내역을 기기 안에 기록하는 기능.</li>
+      <li><strong>리그·크루</strong> - 이용자가 선택 참여하는 익명 주간 그룹 기능. 비슷한 속도의 이용자를 묶어 주간 순위를 보여 줍니다.</li>
+      <li><strong>Plus</strong> - 일회성 결제로 제공되는 유료 기능 묶음(광고 제거, AI 카드·질문 무제한, 전체 통계).</li>
+    </ul>
+
+    <h2><span class="num">03</span>약관의 효력 및 변경</h2>
+    <p>본 약관은 앱 내 또는 본 페이지에 게시함으로써 효력이 발생합니다. 운영자는 관련 법령을 준수하는 범위 내에서 약관을 개정할 수 있으며, 개정 시 시행일 7일 전(이용자에게 불리한 변경의 경우 30일 전)에 앱 내 또는 본 페이지를 통해 공지합니다. 이용자가 변경된 약관 시행일 이후에도 서비스를 계속 이용하는 경우 변경에 동의한 것으로 간주합니다.</p>
+
+    <h2><span class="num">04</span>서비스의 제공</h2>
+    <ol>
+      <li>공부 세션 계획·타이머·기록과 세션 요약.</li>
+      <li>집중 감지(선택) - 첫 세션은 카메라 없이 진행되며, 이후 이용자가 켜기를 선택한 경우에만 사용합니다. 카메라 없이도 모든 기능을 이용할 수 있습니다.</li>
+      <li>회고 입력(글 또는 말)과 기기 안 AI 모델이 만드는 인출 카드·요약, 간격 복습.</li>
+      <li>집중 점수, 일별·주별 통계, 스트릭, 경험치·레벨.</li>
+      <li>주간 리그·크루(선택 참여) - 만 14세 이상만 참여할 수 있습니다.</li>
+      <li>집중 잠금(Android, 선택) - 세션 중에만 동작합니다.</li>
+      <li>아침 브리핑, 복습 알림, 실행 의도 알림 등 기기 안에서 예약되는 로컬 알림(선택).</li>
+      <li>코치 음성과 책상 위 세 친구 캐릭터의 안내.</li>
+    </ol>
+    <p>서비스는 만 13세 이상을 대상으로 하며, 첫 실행 시 출생연도로 연령을 확인합니다. 만 13세 미만은 이용할 수 없습니다. 만 18세 미만 이용자에게는 맞춤형 광고를 요청하지 않습니다.</p>
+    <p>인출 카드·요약을 만드는 AI 모델 파일(약 586 MB)은 이용자의 통신망으로 한 번 내려받으며, 이용자가 다운로드 여부를 선택합니다. 모델을 내려받지 않아도 나머지 기능은 이용할 수 있습니다.</p>
+
+    <h2><span class="num">05</span>서비스의 변경 및 중단</h2>
+    <ul>
+      <li>운영자는 서비스 개선, 기술적 사정, 운영체제·스토어 정책 변경, 외부 서비스(리그 서버, 모델 파일 배포처 등) 사정에 따라 서비스의 일부 또는 전부를 변경하거나 중단할 수 있으며, 이로 인해 이용자에게 발생한 손해에 대해 무상 서비스의 한도 내에서 책임을 지지 않습니다.</li>
+      <li>리그·크루 등 서버 기능은 일시 중단되거나 종료될 수 있습니다. 기기에 저장된 세션·카드·통계는 서버 중단과 무관하게 이용자의 기기에 남습니다.</li>
+      <li>운영체제의 권한 정책이 바뀌면 카메라 감지, 집중 잠금 등 일부 기능의 동작 방식이 달라지거나 제한될 수 있습니다.</li>
+    </ul>
+
+    <h2><span class="num">06</span>정보의 정확성에 관한 면책</h2>
+    <ul>
+      <li>집중 감지 결과는 조명, 자세, 안경, 기기 성능 등에 따라 오차가 있는 <strong>참고용 추정치</strong>이며, 이용자의 실제 집중 상태나 학습 성과를 보증하지 않습니다. 이용자는 판정을 되돌리거나 카메라를 언제든 끌 수 있습니다.</li>
+      <li>기기 안 AI 모델이 만드는 카드·요약은 이용자가 남긴 문장을 바탕으로 자동 생성되며, 내용의 정확성이나 사실 여부를 보장하지 않습니다. 이용자는 저장 전에 내용을 확인·수정할 수 있습니다.</li>
+      <li>집중 점수, 추천 세션 길이, 통계는 기록을 단순 계산한 값으로, 학습 방법이나 결과에 대한 전문적 조언이 아닙니다.</li>
+      <li>서비스는 학습 보조 도구이며 의료·심리 진단, 치료, 상담을 제공하지 않습니다. 졸음·피로 감지는 건강 상태에 대한 판단이 아닙니다.</li>
+      <li>리그 순위는 이용자들이 보고한 집중 시간을 기준으로 하며, 운영자는 그 정확성을 개별 검증하지 않습니다.</li>
+      <li>운영자는 서비스 정보의 완전성, 정확성, 시의성을 보장하지 않으며, 본 정보를 근거로 한 결정과 그 결과에 대해 관계 법령이 허용하는 범위에서 책임을 지지 않습니다.</li>
+    </ul>
+
+    <h2><span class="num">07</span>광고 및 인앱 결제</h2>
+    <ul>
+      <li>무료 이용자에게는 Google AdMob 광고(배너, 전면, 앱 오픈, 보상형, 네이티브)가 표시될 수 있습니다. 이용자가 시청한 광고의 내용·정확성·적법성에 대한 책임은 광고주 및 AdMob에 있으며, 운영자는 광고로 인해 발생한 거래·분쟁에 관여하지 않습니다.</li>
+      <li>보상형 광고를 시청하면 그날의 AI 카드·질문 한도가 추가될 수 있습니다. 광고 시청은 언제나 선택입니다.</li>
+      <li><strong>Plus</strong>는 Apple App Store 또는 Google Play를 통한 일회성 비소모성 결제로 제공되며, 구독이 아닙니다. 결제, 영수증, 환불은 각 스토어의 정책과 절차를 따르며, 운영자는 카드 번호 등 결제 수단 정보를 받지 않습니다.</li>
+      <li>Plus는 광고 제거, AI 카드·질문 무제한, 전체 통계를 제공합니다. Plus는 경험치·레벨·리그 순위에 어떤 이점도 주지 않습니다.</li>
+      <li>기기를 바꾸거나 앱을 다시 설치한 경우 설정의 "구매 복원"으로 같은 스토어 계정에서 복원할 수 있습니다.</li>
+      <li>광고와 관련한 정보 처리는 <a href="../privacy/">개인정보 처리방침</a>에 따릅니다.</li>
+    </ul>
+
+    <h2><span class="num">08</span>이용자의 의무</h2>
+    <ul>
+      <li>이용자는 서비스를 합법적인 목적으로만 이용해야 하며, 관련 법령과 본 약관을 준수해야 합니다.</li>
+      <li>집중 감지와 집중 잠금은 이용자 본인의 공부를 돕기 위한 기능입니다. 다른 사람을 그 사람의 동의 없이 감시하거나 기록하는 데 서비스를 사용해서는 안 됩니다.</li>
+      <li>다음 행위는 금지됩니다.
+        <ul>
+          <li>리그·크루에서 다른 사람을 사칭하거나 불쾌감·차별을 유발하는 닉네임을 사용하는 행위</li>
+          <li>세션 기록·집중 시간·점수를 조작하거나 자동화된 방법으로 서버에 접근하는 행위</li>
+          <li>역공학 / 디컴파일 / 무단 복제 / 재배포</li>
+          <li>제3자의 권리(저작권·상표권·인격권 등) 침해</li>
+        </ul>
+      </li>
+      <li>운영자는 이상 데이터를 보류하거나 리그·크루 참여를 제한할 수 있습니다.</li>
+    </ul>
+
+    <h2><span class="num">09</span>지식재산권</h2>
+    <p>서비스의 디자인, 코드, 문구, 캐릭터, 코치 음성, 구성에 관한 지식재산권은 운영자에게 귀속됩니다. 이용자가 입력한 회고·카드 내용에 대한 권리는 이용자에게 있으며, 운영자는 이를 수집하지 않습니다.</p>
+    <p>서비스에는 다음 오픈소스 구성요소가 각 라이선스에 따라 포함되어 있습니다. 본문 글꼴은 Pretendard와 Manrope(SIL Open Font License 1.1)를 사용합니다.</p>
+    <ul>
+      <li>mediapipe_face_mesh - BSD 3-Clause (기기 내 얼굴 랜드마크 추정)</li>
+      <li>flutter_gemma - MIT (기기 내 언어 모델 실행)</li>
+      <li>Qwen3 - Apache License 2.0 (기기 내 언어 모델)</li>
+    </ul>
+
+    <h2><span class="num">10</span>분쟁의 해결</h2>
+    <p>본 약관은 대한민국 법률에 따라 해석되며, 서비스 이용과 관련하여 운영자와 이용자 사이에 분쟁이 발생한 경우 양 당사자는 성실한 협의를 통해 해결을 시도합니다. 협의가 이루어지지 않을 경우 「민사소송법」상의 관할 법원을 합의관할로 합니다.</p>
+
+    <h2><span class="num">11</span>문의</h2>
+    <p>
+      운영자 — Hasegi Inc. · 개발팀<br />
+      이메일 — <a href="mailto:hasegi.cs@gmail.com">hasegi.cs@gmail.com</a>
+    </p>
+
+    <div class="rule section" id="en"></div>
+
+    <div class="eyebrow">Terms of Service · English</div>
+    <h1>Terms of Service</h1>
+    <div class="meta">Lookafter (지켜봐줄게) · com.hasegi.lookafter<br />Last updated 2026-09-20 / Effective 2026-09-20 · v1.0<br />The Korean text above governs; this English version is provided for convenience.</div>
+
+    <p>
+      These terms govern the rights, obligations, and responsibilities between Hasegi Inc. ("the operator") and users of the mobile application
+      <strong>Lookafter</strong> ("the service"). By using the service you agree to these terms.
+    </p>
+
+    <div class="rule"></div>
+
+    <h2><span class="num">01</span>Purpose</h2>
+    <p>These terms set out what is needed for users to use the service safely and reasonably.</p>
+
+    <h2><span class="num">02</span>Definitions</h2>
+    <ul>
+      <li><strong>Service</strong> - the AI self-directed study coaching app "Lookafter", which provides study session logging, on-device focus detection, recall cards and review, statistics, a weekly league and crews, and coach voices.</li>
+      <li><strong>User</strong> - anyone who installs and uses the service under these terms.</li>
+      <li><strong>Session</strong> - one block of study time from the moment you set a plan and start until you finish.</li>
+      <li><strong>Focus detection</strong> - an optional feature that, during a session, analyzes the front camera on-device only to estimate focus from face direction, eye openness, and presence. No video or photos are stored or transmitted.</li>
+      <li><strong>Recall card</strong> - a review question-and-answer card generated by the on-device AI model from the reflection sentence you left.</li>
+      <li><strong>Focus lock</strong> - an optional Android feature that shows a "come back" card when you switch to another app during a session and logs that use on your device.</li>
+      <li><strong>League and crew</strong> - an optional anonymous weekly group feature that groups users of similar pace and shows weekly standings.</li>
+      <li><strong>Plus</strong> - a paid feature bundle sold as a one-time purchase (ad removal, unlimited AI cards and questions, full statistics).</li>
+    </ul>
+
+    <h2><span class="num">03</span>Effect and Changes</h2>
+    <p>These terms take effect when posted in the app or on this page. The operator may revise them within the bounds of applicable law and will announce revisions in the app or on this page at least 7 days before they take effect (30 days for changes unfavorable to users). Continued use after the effective date constitutes acceptance.</p>
+
+    <h2><span class="num">04</span>The Service</h2>
+    <ol>
+      <li>Study session planning, timer, logging, and session summaries.</li>
+      <li>Focus detection (optional) - the first session runs without the camera; it is used only after you choose to turn it on. Every feature works without the camera.</li>
+      <li>Reflections (typed or dictated), recall cards and summaries generated by the on-device AI model, and spaced review.</li>
+      <li>Focus score, daily and weekly statistics, streaks, XP and levels.</li>
+      <li>Weekly league and crews (opt-in) - available only to users aged 14 and older.</li>
+      <li>Focus lock (Android, optional) - active only during a session.</li>
+      <li>Local notifications scheduled on the device (optional): morning brief, review queue, and if-then reminders.</li>
+      <li>Coach voices and guidance from the three desk companions.</li>
+    </ol>
+    <p>The service is intended for users aged 13 and older; age is checked by birth year on first launch, and users under 13 cannot use it. Users under 18 are not served personalized ads.</p>
+    <p>The AI model file that generates cards and summaries (about 586 MB) is downloaded once over your own connection, and you decide whether to download it. The rest of the service works without the model.</p>
+
+    <h2><span class="num">05</span>Changes and Suspension</h2>
+    <ul>
+      <li>The operator may change or discontinue part or all of the service for improvement, technical reasons, OS or store policy changes, or circumstances of external services (the league server, the model file host, and so on), and is not liable for resulting loss beyond the scope of a free service.</li>
+      <li>Server features such as the league and crews may be suspended or ended. Sessions, cards, and statistics stored on your device remain there regardless.</li>
+      <li>If OS permission policies change, features such as camera detection and focus lock may behave differently or become limited.</li>
+    </ul>
+
+    <h2><span class="num">06</span>Disclaimer on Accuracy</h2>
+    <ul>
+      <li>Focus detection results are <strong>estimates for reference</strong> that vary with lighting, posture, glasses, and device performance; they do not guarantee your actual focus or learning outcomes. You can undo a verdict or turn off the camera at any time.</li>
+      <li>Cards and summaries from the on-device AI model are generated automatically from your own sentences, and their accuracy or truth is not guaranteed. You can review and edit them before saving.</li>
+      <li>Focus scores, recommended session lengths, and statistics are simple calculations over your records, not professional advice on study methods or outcomes.</li>
+      <li>The service is a study aid and does not provide medical or psychological diagnosis, treatment, or counseling. Drowsiness or fatigue cues are not judgments about your health.</li>
+      <li>League standings are based on focus minutes reported by users; the operator does not individually verify them.</li>
+      <li>The operator does not warrant the completeness, accuracy, or timeliness of the service's information and, to the extent permitted by law, is not liable for decisions made on the basis of it.</li>
+    </ul>
+
+    <h2><span class="num">07</span>Advertising and In-App Purchases</h2>
+    <ul>
+      <li>Free users may see Google AdMob ads (banner, interstitial, app open, rewarded, native). Advertisers and AdMob are responsible for the content, accuracy, and legality of ads; the operator is not party to transactions or disputes arising from ads.</li>
+      <li>Watching a rewarded ad may add to that day's AI card and question allowance. Watching is always optional.</li>
+      <li><strong>Plus</strong> is sold through Apple App Store or Google Play as a one-time, non-consumable purchase, not a subscription. Payment, receipts, and refunds follow each store's policies and procedures; the operator never receives payment details such as card numbers.</li>
+      <li>Plus provides ad removal, unlimited AI cards and questions, and full statistics. Plus gives no advantage in XP, levels, or league standings.</li>
+      <li>After changing devices or reinstalling, use "Restore purchases" in Settings to restore Plus on the same store account.</li>
+      <li>Processing of information related to ads is described in the <a href="../privacy/#en">Privacy Policy</a>.</li>
+    </ul>
+
+    <h2><span class="num">08</span>User Obligations</h2>
+    <ul>
+      <li>Use the service only for lawful purposes and comply with applicable law and these terms.</li>
+      <li>Focus detection and focus lock exist to support your own studying. Do not use the service to monitor or record another person without that person's consent.</li>
+      <li>The following are prohibited:
+        <ul>
+          <li>Impersonating others or using offensive or discriminatory nicknames in the league or a crew</li>
+          <li>Manipulating session records, focus minutes, or scores, or accessing the server by automated means</li>
+          <li>Reverse engineering, decompiling, unauthorized copying, or redistribution</li>
+          <li>Infringing third-party rights (copyright, trademark, personality rights, and so on)</li>
+        </ul>
+      </li>
+      <li>The operator may withhold anomalous data or restrict participation in the league or crews.</li>
+    </ul>
+
+    <h2><span class="num">09</span>Intellectual Property</h2>
+    <p>Intellectual property in the service's design, code, text, characters, coach voices, and composition belongs to the operator. Rights in the reflections and card content you enter belong to you, and the operator does not collect them.</p>
+    <p>The service includes the following open-source components under their respective licenses. Body text uses the Pretendard and Manrope typefaces (SIL Open Font License 1.1).</p>
+    <ul>
+      <li>mediapipe_face_mesh - BSD 3-Clause (on-device face landmark estimation)</li>
+      <li>flutter_gemma - MIT (on-device language model runtime)</li>
+      <li>Qwen3 - Apache License 2.0 (on-device language model)</li>
+    </ul>
+
+    <h2><span class="num">10</span>Dispute Resolution</h2>
+    <p>These terms are governed by the laws of the Republic of Korea. Disputes between the operator and a user arising from the service will first be addressed through good-faith consultation. If consultation fails, the court with jurisdiction under the Civil Procedure Act of Korea has agreed jurisdiction.</p>
+
+    <h2><span class="num">11</span>Contact</h2>
+    <p>
+      Operator — Hasegi Inc. · Development<br />
+      Email — <a href="mailto:hasegi.cs@gmail.com">hasegi.cs@gmail.com</a>
+    </p>
+
+    <div class="footer">
+      (c) 2026 Hasegi Inc.<span class="dot"> / </span><br class="mobile-br" />지켜봐줄게 (Lookafter)
+    </div>
+  </main>
+</body>
+</html>
