@@ -6,7 +6,7 @@
 - [이용약관](https://hasegi-project-privacy.github.io/lookafter-policies/terms/)
 - English: [Privacy Policy](https://hasegi-project-privacy.github.io/lookafter-policies/privacy/#en) · [Terms of Service](https://hasegi-project-privacy.github.io/lookafter-policies/terms/#en)
 
-시행 2026-09-20 · v1.0
+시행 2026-10-04 · v1.0
 
 ## 운영자
 
